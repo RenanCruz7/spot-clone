@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    height: 65px;
+}
+
+
+.searchButton{
+    background-color: #535353;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}	
+
+.buttonImg{
+    height: 24px;
+    width: 24px;
+}	
+
+
+.search{
+    border-radius: 20px;
+    height: 40px;
+    width: 350px;
+    border: none;
+    padding-left: 20px;
+    background-color: #535353;
+}
