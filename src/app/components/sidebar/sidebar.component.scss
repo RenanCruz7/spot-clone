@@ -1,0 +1,39 @@
+.sidebar{
+    height: 100%;
+    width: 280px;
+    background-color: #212121;
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.library{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.libraryText{
+    color: #b3b3b3;
+    font-family: JetBrains Mono;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.addPlaylist{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.showMore{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
