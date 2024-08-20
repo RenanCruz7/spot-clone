@@ -1,6 +1,6 @@
 .sidebar{
     height: 100%;
-    width: 280px;
+    width: 300px;
     background-color: #212121;
     position: fixed;
 }
@@ -41,4 +41,22 @@
     height: 25px;
     cursor: pointer;
     margin-right: 10px;
+}
+.optionsContainer{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.roudedButton{
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #535353;
+    color: #b3b3b3;
+    font-family: JetBrains Mono;
+    cursor: pointer;
 }
