@@ -60,3 +60,57 @@
     font-family: JetBrains Mono;
     cursor: pointer;
 }
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.searchImg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menuImg{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.musicsContainer{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    &:hover {
+        background-color: #121212;
+    }
+}
+
+.albumCover{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.infoContainers{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px
+}
+.albumTitle{
+    color:#b3b3b3;
+    font-family: JetBrains Mono;
+}
+
+.artist{
+    color: #b3b3b3;
+    font-family: JetBrains Mono;
+}
