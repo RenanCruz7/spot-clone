@@ -1,7 +1,83 @@
-.bottom-bar{
+.bottom-bar {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 80px;
     background-color: #121212;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bottomImg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .musicDesc {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .musicTitle {
+    color: #b3b3b3;
+    font-family: JetBrains Mono;
+  }
+  
+  .artistName {
+    color: #b3b3b3;
+    font-family: JetBrains Mono;
+  }
+  
+  .center-section {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .advance{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .player{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .advance_invert{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transform: scale(-1);
+  }
+  
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+  }
+  
+  .right-section input[type="range"] {
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  .mic{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }

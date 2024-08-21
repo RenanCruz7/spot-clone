@@ -62,26 +62,15 @@ export class SidebarComponent {
       coverDoAlbum: "../../../assets/blonde.jpg"
     },
     {
-      nomeDoAlbum: "Blonde",
-      nomeDoArtista: "Frank Ocean",
-      coverDoAlbum: "../../../assets/blonde.jpg"
+      nomeDoAlbum: "No More Leaks",
+      nomeDoArtista: "Central Cee",
+      coverDoAlbum: "../../../assets/noMore.png"
     },
     {
-      nomeDoAlbum: "Blonde",
-      nomeDoArtista: "Frank Ocean",
-      coverDoAlbum: "../../../assets/blonde.jpg"
+      nomeDoAlbum: "No More Leaks",
+      nomeDoArtista: "Central Cee",
+      coverDoAlbum: "../../../assets/noMore.png"
     },
-    {
-      nomeDoAlbum: "Blonde",
-      nomeDoArtista: "Frank Ocean",
-      coverDoAlbum: "../../../assets/blonde.jpg"
-    },
-    {
-      nomeDoAlbum: "Blonde",
-      nomeDoArtista: "Frank Ocean",
-      coverDoAlbum: "../../../assets/blonde.jpg"
-    },
-    
   ];
   constructor() { }
 }
