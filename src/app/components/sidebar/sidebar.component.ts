@@ -60,7 +60,28 @@ export class SidebarComponent {
       nomeDoAlbum: "Blonde",
       nomeDoArtista: "Frank Ocean",
       coverDoAlbum: "../../../assets/blonde.jpg"
-    }
+    },
+    {
+      nomeDoAlbum: "Blonde",
+      nomeDoArtista: "Frank Ocean",
+      coverDoAlbum: "../../../assets/blonde.jpg"
+    },
+    {
+      nomeDoAlbum: "Blonde",
+      nomeDoArtista: "Frank Ocean",
+      coverDoAlbum: "../../../assets/blonde.jpg"
+    },
+    {
+      nomeDoAlbum: "Blonde",
+      nomeDoArtista: "Frank Ocean",
+      coverDoAlbum: "../../../assets/blonde.jpg"
+    },
+    {
+      nomeDoAlbum: "Blonde",
+      nomeDoArtista: "Frank Ocean",
+      coverDoAlbum: "../../../assets/blonde.jpg"
+    },
+    
   ];
   constructor() { }
 }

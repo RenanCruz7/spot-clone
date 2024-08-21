@@ -3,6 +3,8 @@
     width: 400px;
     background-color: #212121;
     position: fixed;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .container{
